@@ -6,7 +6,7 @@ header h1 {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #7ac74e;
+    background-color: #b82c2c;
     color: #ffffff;
 }
 
@@ -27,4 +27,15 @@ header nav ul li {
     margin-left: 25px;
 }
 
+#about img {
+    width: 200px;
+    height: 250px;
+}
 
+.left{
+    margin: 40px 15px;
+    text-align: left;
+    font-size: 30px;
+    display: flexbox;
+    border-right: thick solid var(--primary); display: inline-block; padding-right: 10px;
+}
