@@ -15,7 +15,7 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 header nav ul {
@@ -33,9 +33,12 @@ header nav ul li {
 }
 
 .left{
-    margin: 40px 15px;
+    margin: 25px 15px;
     text-align: left;
     font-size: 30px;
     display: flexbox;
     border-right: thick solid var(--primary); display: inline-block; padding-right: 10px;
 }
+
+
+
