@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+}
+
+
 header h1 {
     display: inline-block;
     font-size: 48px;
+    background-color: #b82c2c;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
 }
 
 header {
@@ -8,6 +17,8 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #b82c2c;
     color: #ffffff;
+    display: flex;
+    margin: 0;
 }
 
 header nav {
@@ -25,6 +36,8 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    padding: 10px 50px 10px 50px;
+    font-weight: lighter;
 }
 
 #about img {
@@ -38,7 +51,19 @@ header nav ul li {
     font-size: 30px;
     display: flexbox;
     border-right: thick solid var(--primary); display: inline-block; padding-right: 10px;
+    justify-content: left;
+    flex-wrap: wrap;
 }
 
+#contact{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.contact-info{
+   flex-direction: column;
+  justify-content: center; 
+  line-height: 2.8;
+   }
 
 
