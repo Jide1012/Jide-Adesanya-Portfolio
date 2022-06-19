@@ -71,7 +71,7 @@ header nav ul li a{
     color: var(--primary);  
 }
 
- /* pseudo class that will change the color of the link when mouse hovers */
+
 nav a:hover {
     color: var(--tertiary);
 }
@@ -87,7 +87,7 @@ nav a:hover {
     border-right: thick solid var(--primary); padding-right: 20px;
 }
 
-/* This is the about me paragraph and picture */
+
 #about {
     display: flex;
     justify-content: space-between;
@@ -108,7 +108,7 @@ nav a:hover {
 
 #work {
     margin: 50px auto;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     align-items:flex-start;
     justify-content: space-evenly;
@@ -117,7 +117,7 @@ nav a:hover {
 #work img{
     width: 300px;
     height: 200px;
-   display: flex;
+   display: block;
    flex-wrap: wrap;
    align-items: flex-start;
    justify-content:space-around;
