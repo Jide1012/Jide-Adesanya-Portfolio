@@ -86,6 +86,7 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: left;
     border-right: thick solid var(--primary); padding-right: 20px;
+    float: left;
 }
 
 
@@ -121,7 +122,7 @@ nav a:hover {
    display: flex;
    flex-wrap: wrap;
    align-items: flex-start;
-   justify-content:space-around;
+   justify-content:space-evenly;
    flex-shrink: 1;
 }
 
