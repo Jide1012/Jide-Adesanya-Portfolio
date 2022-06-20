@@ -50,7 +50,8 @@ header nav ul{
  display: flex; 
  flex-direction: row;
  text-align: right;
-
+ justify-content: space-evenly;
+ list-style: none;
 }
 
 body{
@@ -98,8 +99,8 @@ nav a:hover {
 }
 
 #about img {
-    width: 250px;
-    height: 350px;
+    width: 200px;
+    height: 300px;
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -138,32 +139,8 @@ nav a:hover {
 }
 
 
-#contact{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none ;
-}
 
-.contact-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 75%;
-    margin: 75px;
-    list-style: none;
-    text-decoration: underline; 
-    font-weight: bolder;
-    
-}
- /* psuedo classes to keep the visted links the same color as the one that has not been visited and to change the color on hover */
-a:link, a:visited {
-    color: var(--primary);
-} 
 
-a:hover {
-    color: var(--tertiary);
-}
 
 
 @media screen and (max-width: 980px){
@@ -191,5 +168,33 @@ a:hover {
       line-height: 2.8;
        }
 }  
+
+
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none ;
+}
+
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: 75px;
+    list-style: none;
+    text-decoration: underline; 
+    font-weight: bolder;
+    
+}
+
+a:link, a:visited {
+    color: var(--primary);
+} 
+
+a:hover {
+    color: var(--tertiary);
+}
 
 
