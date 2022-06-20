@@ -17,7 +17,7 @@ THEN the UI scrolls to a section with titled images of the developer's applicati
   ## Installation
   VSCODE
   ## Usage
-  [Website Image]()
+  [Website Image](https://github.com/Jide1012/Jide-Adesanya-Portfolio/blob/main/Images/portfolio%20Image.PNG)
 You can access my website by going to https://jide1012.github.io/Jide-Adesanya-Portfolio/
   ## License
   
