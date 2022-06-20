@@ -1,7 +1,7 @@
 # Jide-Adesanya-Portfolio
 
 
-# Note Taker  (![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Jide-Adesanya-Portfolio  (![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
 As aN employer I want to view a potential employee's deployed portfolio of work samples
 so that I can review samples of their work and assess whether they're a good candidate for an open position
@@ -17,7 +17,8 @@ THEN the UI scrolls to a section with titled images of the developer's applicati
   ## Installation
   VSCODE
   ## Usage
-The User must type in npm start in thte command line and then go to http://localhost:3001/ to access the noteTaker.
+  [Website Image]()
+You can access my website by going to https://jide1012.github.io/Jide-Adesanya-Portfolio/
   ## License
   
     MIT License
