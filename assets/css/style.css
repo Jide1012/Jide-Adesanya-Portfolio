@@ -55,7 +55,7 @@ header nav ul{
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: var(--primary);
+    color: var(--tertiary);
 }
 
 header nav ul li {
@@ -108,7 +108,7 @@ nav a:hover {
 
 #work {
     margin: 50px auto;
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     align-items:flex-start;
     justify-content: space-evenly;
@@ -117,7 +117,7 @@ nav a:hover {
 #work img{
     width: 300px;
     height: 200px;
-   display: block;
+   display: flex;
    flex-wrap: wrap;
    align-items: flex-start;
    justify-content:space-around;
